@@ -14,10 +14,6 @@
 // @license      GNU GPLv3
 // ==/UserScript==
 
-
-
-
-
 var child = null;
 
 function getImage() {
