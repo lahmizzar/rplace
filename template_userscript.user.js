@@ -2,7 +2,7 @@
 // @name         placede manual templates
 // @namespace    https://github.com/lahmizzar/rplace
 // @version      1.0
-// @description  simple overlay system for r/place based on tt2468's script
+// @description  simple overlay system for r/place based on tt2468's script used overlay picture from r/placeDE
 // @author       Lahmizzar
 // @match        https://hot-potato.reddit.com/embed*
 // @match        https://www.reddit.com/r/place/*
@@ -18,7 +18,7 @@ var child = null;
 
 function getImage() {
     const i = document.createElement("img");
-    i.src = "https://github.com/lahmizzar/rplace/raw/main/place.png?t=" + Date.now();
+    i.src = "https://raw.githubusercontent.com/placeDE/pixel/main/overlay.png?t=" + Date.now();
     i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;";
     return i;
 }
