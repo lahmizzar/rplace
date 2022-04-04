@@ -1,12 +1,10 @@
 // ==UserScript==
 // @name         placede manual templates
 // @namespace    https://github.com/lahmizzar/rplace
-// @version      1.1
+// @version      2
 // @description  simple overlay system for r/place based on tt2468's script used overlay picture from r/placeDE
 // @author       Lahmizzar
 // @match        https://hot-potato.reddit.com/embed*
-// @match        https://www.reddit.com/r/place/*
-// @match        https://new.reddit.com/r/place/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @updateURL    https://github.com/lahmizzar/rplace/raw/main/template_userscript.user.js
 // @downloadURL  https://github.com/lahmizzar/rplace/raw/main/template_userscript.user.js
