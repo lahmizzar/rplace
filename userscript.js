@@ -21,10 +21,8 @@
 var child = null;
 
 function getImage() {
-    var num = Math.random();
-
     const i = document.createElement("img");
-    i.src = "https://github.com/lahmizzar/rplace/raw/main/place.png?v=" + num;
+    i.src = "https://github.com/lahmizzar/rplace/raw/main/place.png?t=" + Date.now();
     i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;";
     return i;
 }
