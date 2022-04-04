@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         placede manual templates
 // @namespace    https://github.com/lahmizzar/rplace
-// @version      2
+// @version      3
 // @description  simple overlay system for r/place based on tt2468's script used overlay picture from r/placeDE
 // @author       Lahmizzar
 // @match        https://hot-potato.reddit.com/embed*
@@ -39,11 +39,12 @@ function refreshTemplateLoop() {
 
 (function() {
     function addButton(text, onclick, cssObj) {
-        cssObj = cssObj || {position: 'absolute', bottom: '5%', left:'4%', 'z-index': 3}
+        cssObj = cssObj || {position: 'absolute', bottom: '20px', left:'80px', 'z-index': 3, 'background-color': 'white', color: 'black', 'border-color': 'black', height: '36px'}
         let button = document.createElement('button'), btnStyle = button.style
         document.body.appendChild(button)
         button.innerHTML = text
         button.onclick = onclick
+        button.classList.add("btnrefresh");
         btnStyle.position = 'absolute'
         Object.keys(cssObj).forEach(key => {btnStyle[key] = cssObj[key]})
         return button
