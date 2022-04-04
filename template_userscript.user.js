@@ -8,8 +8,8 @@
 // @match        https://www.reddit.com/r/place/*
 // @match        https://new.reddit.com/r/place/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
-// @updateURL    https://github.com/lahmizzar/rplace/raw/main/userscript.js
-// @downloadURL  https://github.com/lahmizzar/rplace/raw/main/userscript.js
+// @updateURL    https://github.com/lahmizzar/rplace/raw/main/template_userscript.user.js
+// @downloadURL  https://github.com/lahmizzar/rplace/raw/main/template_userscript.user.js
 // @grant        none
 // @license      GNU GPLv3
 // ==/UserScript==
