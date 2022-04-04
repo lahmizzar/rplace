@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         placede manual templates
 // @namespace    https://github.com/lahmizzar/rplace
-// @version      1.0
+// @version      1.1
 // @description  simple overlay system for r/place based on tt2468's script used overlay picture from r/placeDE
 // @author       Lahmizzar
 // @match        https://hot-potato.reddit.com/embed*
